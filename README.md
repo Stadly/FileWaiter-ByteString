@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Byte string file adapter for [FileWaiter](https://github.com/Stadly/FileWaiter)
+Byte string file adapter for [FileWaiter](https://github.com/Stadly/FileWaiter).
 
 ## Install
 
