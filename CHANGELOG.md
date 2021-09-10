@@ -8,7 +8,7 @@ Updates should follow the [Keep a Changelog](http://keepachangelog.com/) princip
 ## Unreleased - YYYY-MM-DD
 
 ### Added
-- Nothing
+- Byte string file adapter.
 
 ### Deprecated
 - Nothing

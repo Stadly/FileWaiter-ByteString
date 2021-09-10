@@ -20,7 +20,19 @@ $ composer require stadly/file-waiter-bytestring
 ## Usage
 
 ``` php
-// TODO
+use Stadly\FileWaiter\Adapter\ByteString;
+use Stadly\FileWaiter\File;
+use Stadly\FileWaiter\Waiter;
+
+$content = 'FILE CONTENT STORED AS STRING';
+
+$streamFactory = new \GuzzleHttp\Psr7\HttpFactory();        // Any PSR-17 compatible stream factory.
+$file = new File(new ByteString($content, $streamFactory));
+
+$responseFactory = new \GuzzleHttp\Psr7\HttpFactory();      // Any PSR-17 compatible response factory.
+$waiter = new Waiter($file, $responseFactory);
+
+// Serve the byte string using FileWaiter.
 ```
 
 ## Change log
