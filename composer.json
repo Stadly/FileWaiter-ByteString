@@ -21,7 +21,7 @@
     "require": {
         "php": ">=7.4",
         "psr/http-factory": "^1.0",
-        "stadly/file-waiter": "^0.1"
+        "stadly/file-waiter": "*"
     },
     "require-dev": {
         "guzzlehttp/psr7": "^2.0",

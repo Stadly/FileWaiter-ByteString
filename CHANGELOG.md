@@ -20,7 +20,7 @@ Updates should follow the [Keep a Changelog](http://keepachangelog.com/) princip
 - Nothing
 
 ### Fixed
-- Nothing
+- Work with any version of [FileWaiter](https://github.com/Stadly/FileWaiter).
 
 ### Security
 - Nothing
